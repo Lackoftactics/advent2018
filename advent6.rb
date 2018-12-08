@@ -40,7 +40,7 @@ i = 0
 while i < grid.length
   j = 0
   while j < grid.length
-    if i == 0 || j == 0 || i == grid.length || j == grid.length
+    if i == 0 || j == 0 || i == (grid.length - 1) || j == (grid.length - 1)
       to_delete << grid[i][j]
     end
 
